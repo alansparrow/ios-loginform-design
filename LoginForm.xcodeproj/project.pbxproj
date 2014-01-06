@@ -21,6 +21,14 @@
 		D88F33FB187AE3FF00E9A8D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88F33DD187AE3FF00E9A8D5 /* UIKit.framework */; };
 		D88F3403187AE3FF00E9A8D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D88F3401187AE3FF00E9A8D5 /* InfoPlist.strings */; };
 		D88F3405187AE3FF00E9A8D5 /* LoginFormTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D88F3404187AE3FF00E9A8D5 /* LoginFormTests.m */; };
+		D88F3417187AE46700E9A8D5 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = D88F340F187AE46700E9A8D5 /* background.png */; };
+		D88F3418187AE46700E9A8D5 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D88F3410187AE46700E9A8D5 /* background@2x.png */; };
+		D88F3419187AE46700E9A8D5 /* greyButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D88F3411187AE46700E9A8D5 /* greyButton.png */; };
+		D88F341A187AE46700E9A8D5 /* greyButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D88F3412187AE46700E9A8D5 /* greyButton@2x.png */; };
+		D88F341B187AE46700E9A8D5 /* loginFields.png in Resources */ = {isa = PBXBuildFile; fileRef = D88F3413187AE46700E9A8D5 /* loginFields.png */; };
+		D88F341C187AE46700E9A8D5 /* loginFields@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D88F3414187AE46700E9A8D5 /* loginFields@2x.png */; };
+		D88F341D187AE46700E9A8D5 /* outlineButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D88F3415187AE46700E9A8D5 /* outlineButton.png */; };
+		D88F341E187AE46700E9A8D5 /* outlineButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D88F3416187AE46700E9A8D5 /* outlineButton@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,14 @@
 		D88F3400187AE3FF00E9A8D5 /* LoginFormTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LoginFormTests-Info.plist"; sourceTree = "<group>"; };
 		D88F3402187AE3FF00E9A8D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D88F3404187AE3FF00E9A8D5 /* LoginFormTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginFormTests.m; sourceTree = "<group>"; };
+		D88F340F187AE46700E9A8D5 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = ../../LoginImages/background.png; sourceTree = "<group>"; };
+		D88F3410187AE46700E9A8D5 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "background@2x.png"; path = "../../LoginImages/background@2x.png"; sourceTree = "<group>"; };
+		D88F3411187AE46700E9A8D5 /* greyButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = greyButton.png; path = ../../LoginImages/greyButton.png; sourceTree = "<group>"; };
+		D88F3412187AE46700E9A8D5 /* greyButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "greyButton@2x.png"; path = "../../LoginImages/greyButton@2x.png"; sourceTree = "<group>"; };
+		D88F3413187AE46700E9A8D5 /* loginFields.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loginFields.png; path = ../../LoginImages/loginFields.png; sourceTree = "<group>"; };
+		D88F3414187AE46700E9A8D5 /* loginFields@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "loginFields@2x.png"; path = "../../LoginImages/loginFields@2x.png"; sourceTree = "<group>"; };
+		D88F3415187AE46700E9A8D5 /* outlineButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = outlineButton.png; path = ../../LoginImages/outlineButton.png; sourceTree = "<group>"; };
+		D88F3416187AE46700E9A8D5 /* outlineButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "outlineButton@2x.png"; path = "../../LoginImages/outlineButton@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +142,7 @@
 		D88F33E0187AE3FF00E9A8D5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D88F340E187AE42500E9A8D5 /* Images */,
 				D88F33E1187AE3FF00E9A8D5 /* LoginForm-Info.plist */,
 				D88F33E2187AE3FF00E9A8D5 /* InfoPlist.strings */,
 				D88F33E5187AE3FF00E9A8D5 /* main.m */,
@@ -150,6 +167,21 @@
 				D88F3401187AE3FF00E9A8D5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D88F340E187AE42500E9A8D5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D88F340F187AE46700E9A8D5 /* background.png */,
+				D88F3410187AE46700E9A8D5 /* background@2x.png */,
+				D88F3411187AE46700E9A8D5 /* greyButton.png */,
+				D88F3412187AE46700E9A8D5 /* greyButton@2x.png */,
+				D88F3413187AE46700E9A8D5 /* loginFields.png */,
+				D88F3414187AE46700E9A8D5 /* loginFields@2x.png */,
+				D88F3415187AE46700E9A8D5 /* outlineButton.png */,
+				D88F3416187AE46700E9A8D5 /* outlineButton@2x.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,7 +262,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				D88F33F2187AE3FF00E9A8D5 /* Images.xcassets in Resources */,
+				D88F3417187AE46700E9A8D5 /* background.png in Resources */,
+				D88F341D187AE46700E9A8D5 /* outlineButton.png in Resources */,
+				D88F341B187AE46700E9A8D5 /* loginFields.png in Resources */,
 				D88F33E4187AE3FF00E9A8D5 /* InfoPlist.strings in Resources */,
+				D88F3418187AE46700E9A8D5 /* background@2x.png in Resources */,
+				D88F341C187AE46700E9A8D5 /* loginFields@2x.png in Resources */,
+				D88F3419187AE46700E9A8D5 /* greyButton.png in Resources */,
+				D88F341E187AE46700E9A8D5 /* outlineButton@2x.png in Resources */,
+				D88F341A187AE46700E9A8D5 /* greyButton@2x.png in Resources */,
 				D88F33ED187AE3FF00E9A8D5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
