@@ -8,6 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ASViewController : UIViewController
+@interface ASViewController : UIViewController <UITextFieldDelegate>
+
+{
+    __weak IBOutlet UITextField *emailField;
+    
+    __weak IBOutlet UITextField *passwordField;
+    __weak IBOutlet UIScrollView *containerScrollView;
+}
+
+@property (weak, nonatomic) IBOutlet UITextField *emailField;
+@property (weak, nonatomic) IBOutlet UITextField *passwordField;
+@property (weak, nonatomic) IBOutlet UIScrollView *containerScrollView;
+- (IBAction)aboutButtonClick:(id)sender;
 
 @end
